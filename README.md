@@ -96,7 +96,9 @@ Ls istrucciones redondeadas son de tipo matemático, y las de tipo rombo se util
 
 ### Instrucciones de movimiento
 
-En S4A se ha eliminado el concepto de pines y estados (alto y bajo) y se utiliza un lenguaje más natural para acceder a cada una de las características de la tarjeta Arduino.
+En el conjunto de instrucciones de movimientos observamos tanto instrucciones utilizadas en Scratch para el escenario, como instrucciones que interactúan con Arduino.
+
+En S4A se ha eliminado el concepto de pines y estados (alto y bajo) y se utiliza un lenguaje más natural para acceder a cada una de las características de la tarjeta Arduino. Podemos utilizar los pines digitales y pines digitales PWM(~ ) mediante las instrucciones digitales, analógicas y motor.
 
 ![Movimientos](Imágenes/Movimientos.png)
 
