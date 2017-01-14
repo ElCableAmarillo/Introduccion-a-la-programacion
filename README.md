@@ -74,7 +74,7 @@ Las instrucciones de tipo bucle son aquellas que suponen la repetición deuna se
 
 Por otro lado, las instrucciones de tipo condicional ejecutan una condición y actúan según el caso de aserto.
 
-![Bucles y Condiciones](Imágenes/Bucles y Condiciones.png)
+![Bucles y Condicionales](Imágenes/Bucles y Condicionales.png)
 
 
 <br />
