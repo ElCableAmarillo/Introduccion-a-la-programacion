@@ -95,7 +95,25 @@ Ls istrucciones redondeadas son de tipo matemático, y las de tipo rombo se util
 
 
 ### Instrucciones de movimiento
+
+En S4A se ha eliminado el concepto de pines y estados (alto y bajo) y se utiliza un lenguaje más natural para acceder a cada una de las características de la tarjeta Arduino.
+
+![Movimientos](Imágenes/Movimientos.png)
+
+
+<br >
+
+
 ### Variables
+
+En el conjunto de instrucciones que proporciona S4a para variables encontramos *variables* y *listas*.
+
+Una **variable** es un espacio donde guardar un valor. Podríamos definirla como una caja a la que ponemos un nombre y guardamos el valor. Cuando queremos acceder al valor, le llamamos por el nombre asignado a la variable.
+
+Una **lista** es una colecciones de variables. Podríamos definirla como una lista contigua de cajas, donde caja caja están numeradas desde la posición de la caja 1 hasta la última. De esta forma, podemos acceder directamente a la posición 3 de la lista para obtener el valor de esa posición.
+
+![Variables](Imágenes/Variables.png)
+
 
 
 <br /><br />
