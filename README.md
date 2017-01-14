@@ -115,7 +115,7 @@ NOTA: Para más información sobre tipos de datos primitivos en Arduino, visita 
 
 #### Función setup()
 
-La función *setup()* es la primera función que se ejecuta en nuestro programa, ejecutándose sólo una vez, y se utiliza para `configurar la comunicación` con nuestro equipo, `inicializar los pines` de nuestra tarjeta de Arduino e `inicialización de las variables`.
+La función *setup()* es la primera función que se ejecuta en nuestro programa, ejecutándose sólo una vez, y se utiliza para *configurar la comunicación* con nuestro equipo, *inicializar los pines* de nuestra tarjeta de Arduino e *inicialización de las variables*.
 
 ```
 void setup (){
@@ -142,15 +142,15 @@ void loop (){
 
 ### Instrucciones propias de processing
 
-A continuación se detallan algunas instrucciones de processing que serán de utilidad en la elaboración de neustros programas.
+A continuación se detallan algunas instrucciones de processing que serán de utilidad en la elaboración de nuestros programas.
 
 #### Visualización de datos en pantalla
 
 La visualización de datos de pantalla resulta de gran utilidad para localizar posibles errores en la lógica de nuestros programas. Esta comprobación se realiza a través del monitor serial.
 
-El monitor serial es una pequeña utilidad integrada dentro de IDE Standard que nos permite enviar y recibir fácilmente información a través del puerto serie para comunicarnos con nuestar tarjeta de Arduino en tiempo real.
+El monitor serial es una pequeña utilidad integrada dentro de Arduino IDE que nos permite enviar y recibir fácilmente información a través del puerto serie para comunicarnos con nuestar tarjeta de Arduino en tiempo real.
 
-Para ello tenemos que configurar la velocidad de transferencia en el puerto serie a 9600 baudios, y a continuación mostrar los datos por pantalla mediante la función println().
+Para ello tenemos que configurar la velocidad de transferencia en el puerto serie a 9600 baudios y a continuación mostrar los datos por pantalla mediante la función println().
 
 ```
 void setup(){
@@ -164,11 +164,98 @@ void loop(){
 }
 ```
 
+Para ver los datos que es están enviando a través de la función println() tenemos que abrir el monitor serial Herramientas > monitor serial`.
+
 #### Pausas y retardos
+
+En ocasiones necesitamos establecer pausas en nuestros programas durante una determinada cantidad de tiempo.
+
+```
+//Tiempo en milisegundos
+delay(1000);
+
+//Tiempo en microsegundos
+delayMicroseconds(1);
+```
+
 #### Estructura condicional
+
+Una sentencia condicional ejecuta una o un conjunto de instrucciones en función de la condición indicada.
+
+```
+if(condición){
+    // Si la condición es verdadera
+    Instrucción 1
+    Instrucción 2
+    ...
+    Instrucción N
+}else{
+    // En caso contrario
+    Instrucción 1
+    Instrucción 2
+    ...
+    Instrucción N
+}
+```
+
+Podemos expresar condiciones anidadas como muestra el siguiente ejemplo:
+
+```
+if (número es mayor que 10){
+    // El número es mayor que 10
+}elseif(número es menor que 10){
+    // El número es menor que 10
+}else{
+    // El número es igual a 10
+}
+```
+
+Es una mala práctica representar muchas anidaciones de condiciones, en ese caso se utilizan otro tipo de estructuras de control más avanzadas como los switch().
+
+
+<br />
+
+
 ### Instrucciones de control de pines
+
+La programación de una tarjeta Arduino consiste principalmente en interactuar con los operadores conectados a cada uno de sus pines, pudiendo activar o desactivar estos pines así como datos que nos proporcionen sensores conectados a la placa.
+
+Para realizar este tipo de acciones disponemos de las siguientes instrucciones de escritura:
+
+```
+// Establecemos el pin digital 13 a un valor alto
+digitalWrite(13, HIGH);
+
+// Establecemos el pin digital 13 a un valor bajo
+digitalWrite(13, LOW);
+
+// Establecemos el pin PWM(~) 9 a un valor entre 0 y 255
+digitalWrite(13, 125);
+```
+
+Por otro lado también podemos leer datos, como datos procedentes de sensores. Para ello disponemos de las siguientes instrucciones:
+
+```
+// Establecemos en la variable dato el valor del pin digital 13
+dato = digitalRead(13)
+
+// Establecemos en la variable dato el valor del pin analógico 0
+dato = analogRead(0)
+```
+
 ### Declaración de librerías
 
+Algunos operadores contienen librerías de instrucciones específicas que facilitan su programación como es el caso de servomotores, sensores de ultrasonido, display LCD, etc.
+
+Para incluir una de esas librerías introducimos una línea al principio del archivo de nuestro programa (sería la primera línea del archivo) com ola siguiente:
+
+```
+#include <libreria.h>
+```
+
+En este caso la palabra librería será sustituído por el nombre de la librería en cuestión a utilizar.
+
+Una vez incluída podemos utilizar todas las funciones que proporciona la misma.
 
 
 <br /><br />
