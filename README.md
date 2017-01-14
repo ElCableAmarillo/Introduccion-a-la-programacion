@@ -50,6 +50,8 @@ En este apartado verás una introducción a los lenguajes de programación de pl
 
 Arduino IDE es un entorno basado en Processing que nos permite programar tarjetas Arduino. Incluye instrucciones y librerías propias que facilita el proceso de programación.
 
+![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
+
 Al ser un lenguaje de programación basado en código (sin entorno visual), tenemos que aprender bien la semántica del lenguaje para minimizar los errores por fallos de escritura. Igualmente debemos tener claros cuales son los errores de sintaxis más comunes para solventar los problemas con celeridad.
 
 <br />
@@ -164,7 +166,7 @@ void loop(){
 }
 ```
 
-Para ver los datos que es están enviando a través de la función println() tenemos que abrir el monitor serial Herramientas > monitor serial`.
+Para ver los datos que es están enviando a través de la función println() tenemos que abrir el monitor serial `Herramientas > monitor serial`.
 
 #### Pausas y retardos
 
@@ -253,9 +255,7 @@ Para incluir una de esas librerías introducimos una línea al principio del arc
 #include <libreria.h>
 ```
 
-En este caso la palabra librería será sustituído por el nombre de la librería en cuestión a utilizar.
-
-Una vez incluída podemos utilizar todas las funciones que proporciona la misma.
+En este caso la palabra librería será sustituído por el nombre de la librería en cuestión a utilizar. Una vez incluída podemos utilizar todas las funciones que proporciona la misma.
 
 
 <br /><br />
