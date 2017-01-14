@@ -31,12 +31,22 @@ En este apartado verás una introducción a los lenguajes de programación de pl
 
 
 
-
 ***
 
 
 
 ## Scratch 4 Arduino
+
+S4A es una modificación del software libre Scratch que nos permite crear programas para Arduino teniendo en cuenta que los programas serán siempre dependientes de su conexión con el PC.
+
+Está basado en el lenguaje de programación por bloques y sus instrucciones han sido diseñadas con un lenguaje natural, eliminando términos técnicos y empleando una terminología más natural. Así se facilita el acceso a la programación en niveles educativos básicos.
+
+![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
+
+
+<br />
+
+
 ### Instrucciones de control
 ### Instrucciones de operación
 ### Instrucciones de movimiento
