@@ -12,6 +12,7 @@
 En este apartado verás una introducción a los lenguajes de programación de placas de Arduino para utilizar en el aula con tus alumnos.
 
 - [Scratch 4 Arduino](#scratch-4-arduino)
+    - [Catálogo de instrucciones](#catálogo-de-instrucciones)
     - [Instrucciones de control](#instrucciones-de-control)
     - [Instrucciones de operación](#instrucciones-de-operación)
     - [Instrucciones de movimiento](#instrucciones-de-movimiento)
@@ -47,8 +48,52 @@ Está basado en el lenguaje de programación por bloques y sus instrucciones han
 <br />
 
 
+### Catálogo de instrucciones
+
+El conjunto de instrucciones de S4A están clasificadas por colores en las siguientes categorías:
+- *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
+- *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
+- *Sonido*: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
+- *Lápiz*: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria. Este rastro se genera con las instrucciones que podemos encontrar en esta sección.
+- *Control*: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de acción.
+- *Sensores*: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
+- *Operadores*: operaciones matemáticas, lógicas y con cadenas de texto.
+- *Variables*: Instrucciones para el almacenamiento y gestión de datos.
+
+
+<br />
+
+    
 ### Instrucciones de control
+
+Todo programa en Scratch comienza con un clic de ratón sobre el icono de la bandera y se paraliza pulsando sobre el icono hexagonal rojo.
+
+La instrucción `al presionar bandera verde` será la primera que incluyamos en nuestro proyecto. El resto de instrucciones se irán agregando bajo esta. Si nos fijamos en la parte inferior de los bloques encontraremos una pequeña pestaña. Cuando acercamos otra instrucción hacia la pestaña aparece una línea blanca que nos indica que la instrucción se va a añadir cuando soltemos el bloque.
+
+<br />
+
+Las instrucciones de tipo bucle son aquellas que suponen la repetición deuna sentencia de instrucciones. Pueden ser bucles de tipo infinito o finito, los cuales se ejecutan una determinada cantidad de veces.
+
+Por otro lado, las instrucciones de tipo condicional ejecutan una condición y actúan según el caso de aserto.
+
+![Bucles y Condiciones](Imágenes/Bucles y Condiciones.png)
+
+
+<br />
+
+
 ### Instrucciones de operación
+
+En el conjunto de instrucciones de operaciones encontraremos instrucciones para realizar operaciones matemáticas y comparaciones de tipo lógico para su usio con condiciones.
+
+Ls istrucciones redondeadas son de tipo matemático, y las de tipo rombo se utilizan para generar condiciones en bucles y condiciones.
+
+![Operadores](Imágenes/Operadores.png)
+
+
+<br >
+
+
 ### Instrucciones de movimiento
 ### Variables
 
