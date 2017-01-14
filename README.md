@@ -70,8 +70,6 @@ Todo programa en Scratch comienza con un clic de ratón sobre el icono de la ban
 
 La instrucción `al presionar bandera verde` será la primera que incluyamos en nuestro proyecto. El resto de instrucciones se irán agregando bajo esta. Si nos fijamos en la parte inferior de los bloques encontraremos una pequeña pestaña. Cuando acercamos otra instrucción hacia la pestaña aparece una línea blanca que nos indica que la instrucción se va a añadir cuando soltemos el bloque.
 
-<br />
-
 Las instrucciones de tipo bucle son aquellas que suponen la repetición deuna sentencia de instrucciones. Pueden ser bucles de tipo infinito o finito, los cuales se ejecutan una determinada cantidad de veces.
 
 Por otro lado, las instrucciones de tipo condicional ejecutan una condición y actúan según el caso de aserto.
@@ -86,7 +84,7 @@ Por otro lado, las instrucciones de tipo condicional ejecutan una condición y a
 
 En el conjunto de instrucciones de operaciones encontraremos instrucciones para realizar operaciones matemáticas y comparaciones de tipo lógico para su usio con condiciones.
 
-Ls istrucciones redondeadas son de tipo matemático, y las de tipo rombo se utilizan para generar condiciones en bucles y condiciones.
+Las istrucciones redondeadas son de tipo matemático, y las de tipo rombo se utilizan para generar condiciones en bucles y condiciones.
 
 ![Operadores](Imágenes/Operadores.png)
 
