@@ -59,6 +59,7 @@ Al ser un lenguaje de programación basado en código (sin entorno visual), tene
 Es importante tener claros las siguientes reglas del lenguaje de programación:
 - Las instrucciones son sensibles a las mayúsculas y las minúsculas. Es decir, si una instrucción está definida dentro de processing con una letra en mayúsucla o minúscula debemos respetarlo o por el contrario nos devolverá un mensaje de error.
 - Toda línea termina en un ; (punto y coma) excepto las estructuras de control que se acompañan con unas {} (llaves).
+- Podemos utilizar comentarios de texto para documentar nuestro código fuente. Estos comentarios irán acompañados por // (doble barra diagonal).
 
 Para familiarizarnos con la sintaxis vamos a realizar un repaso por las instrucciones más habituales con sencillos ejemplos.
 
@@ -140,7 +141,29 @@ void loop (){
 <br />
 
 ### Instrucciones propias de processing
+
+A continuación se detallan algunas instrucciones de processing que serán de utilidad en la elaboración de neustros programas.
+
 #### Visualización de datos en pantalla
+
+La visualización de datos de pantalla resulta de gran utilidad para localizar posibles errores en la lógica de nuestros programas. Esta comprobación se realiza a través del monitor serial.
+
+El monitor serial es una pequeña utilidad integrada dentro de IDE Standard que nos permite enviar y recibir fácilmente información a través del puerto serie para comunicarnos con nuestar tarjeta de Arduino en tiempo real.
+
+Para ello tenemos que configurar la velocidad de transferencia en el puerto serie a 9600 baudios, y a continuación mostrar los datos por pantalla mediante la función println().
+
+```
+void setup(){
+    // Conexión con el puerto serie a 9600 bps
+    Serial.begin(9600);
+}
+ 
+void loop(){
+    // Se imprime el texto con retorno de carro
+    Serial.println("¡Hola Mundao!");
+}
+```
+
 #### Pausas y retardos
 #### Estructura condicional
 ### Instrucciones de control de pines
