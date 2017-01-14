@@ -92,7 +92,6 @@ void loop (){
 }
 ```
 
-<br />
 
 #### Definición de variables
 
@@ -112,7 +111,6 @@ String cadena = “¡Hola Mundo!”
 
 NOTA: Para más información sobre tipos de datos primitivos en Arduino, visita el siguiente [link](http://playground.arduino.cc/ArduinoNotebookTraduccion/Datatypes).
 
-<br>
 
 #### Función setup()
 
@@ -126,7 +124,6 @@ void setup (){
 }
 ```
 
-<br>
 
 #### Función loop()
 
