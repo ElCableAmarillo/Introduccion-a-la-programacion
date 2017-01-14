@@ -46,26 +46,36 @@ En este apartado verás una introducción a los lenguajes de programación de pl
 <br /><br />
 
 
+
+***
+
+
+
 ## Arduino IDE
 
 Arduino IDE es un entorno basado en Processing que nos permite programar tarjetas Arduino. Incluye instrucciones y librerías propias que facilita el proceso de programación.
 
-![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
-
 Al ser un lenguaje de programación basado en código (sin entorno visual), tenemos que aprender bien la semántica del lenguaje para minimizar los errores por fallos de escritura. Igualmente debemos tener claros cuales son los errores de sintaxis más comunes para solventar los problemas con celeridad.
 
+![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
+
+
 <br />
+
 
 ### Sintaxis de Processing
 
 Es importante tener claros las siguientes reglas del lenguaje de programación:
-- Las instrucciones son sensibles a las mayúsculas y las minúsculas. Es decir, si una instrucción está definida dentro de processing con una letra en mayúsucla o minúscula debemos respetarlo o por el contrario nos devolverá un mensaje de error.
-- Toda línea termina en un ; (punto y coma) excepto las estructuras de control que se acompañan con unas {} (llaves).
-- Podemos utilizar comentarios de texto para documentar nuestro código fuente. Estos comentarios irán acompañados por // (doble barra diagonal).
+- Las instrucciones y los nombres de las variables son **sensibles** a mayúsculas y minúsculas, es decir, debemos respetar el nombre exacto o por el contrario nos aparecerá un error.
+- Toda línea termina en un **; (punto y coma)** excepto las estructuras de control que se acompañan con unas {} (llaves).
+- Los espacios o saltos de linea son insignificantes, pero se aconseja tabular las instrucciones dentro de las funciones para una mejor visibilidad y lectura.
+- Podemos utilizar **comentarios de texto** para documentar nuestro código fuente. Estos comentarios irán acompañados por // (doble barra diagonal).
 
 Para familiarizarnos con la sintaxis vamos a realizar un repaso por las instrucciones más habituales con sencillos ejemplos.
 
+
 <br />
+
 
 ### Estructura de un programa en Arduino
 
@@ -140,11 +150,14 @@ void loop (){
 }
 ```
 
+
 <br />
+
 
 ### Instrucciones propias de processing
 
 A continuación se detallan algunas instrucciones de processing que serán de utilidad en la elaboración de nuestros programas.
+
 
 #### Visualización de datos en pantalla
 
@@ -168,6 +181,7 @@ void loop(){
 
 Para ver los datos que es están enviando a través de la función println() tenemos que abrir el monitor serial `Herramientas > monitor serial`.
 
+
 #### Pausas y retardos
 
 En ocasiones necesitamos establecer pausas en nuestros programas durante una determinada cantidad de tiempo.
@@ -179,6 +193,7 @@ delay(1000);
 //Tiempo en microsegundos
 delayMicroseconds(1);
 ```
+
 
 #### Estructura condicional
 
@@ -244,6 +259,10 @@ dato = digitalRead(13)
 // Establecemos en la variable dato el valor del pin analógico 0
 dato = analogRead(0)
 ```
+
+
+<br />
+
 
 ### Declaración de librerías
 
