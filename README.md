@@ -42,7 +42,7 @@ S4A es una modificación del software libre Scratch que nos permite crear progra
 
 Está basado en el lenguaje de programación por bloques y sus instrucciones han sido diseñadas con un lenguaje natural, eliminando términos técnicos y empleando una terminología más natural. Así se facilita el acceso a la programación en niveles educativos básicos.
 
-![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
+![Software Scratch 4 Arduino](Imágenes/Software-Scratch-4-Arduino.png)
 
 
 <br />
@@ -74,7 +74,7 @@ Las instrucciones de tipo bucle son aquellas que suponen la repetición deuna se
 
 Por otro lado, las instrucciones de tipo condicional ejecutan una condición y actúan según el caso de aserto.
 
-![Bucles y Condicionales](Imágenes/Bucles y Condicionales.png)
+![Bucles y Condicionales](Imágenes/Bucles-y-Condicionales.png)
 
 
 <br />
@@ -130,7 +130,7 @@ Arduino IDE es un entorno basado en Processing que nos permite programar tarjeta
 
 Al ser un lenguaje de programación basado en código (sin entorno visual), tenemos que aprender bien la semántica del lenguaje para minimizar los errores por fallos de escritura. Igualmente debemos tener claros cuales son los errores de sintaxis más comunes para solventar los problemas con celeridad.
 
-![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
+![Software Arduino IDE](Imágenes/Software-Arduino-IDE.png)
 
 
 <br />
